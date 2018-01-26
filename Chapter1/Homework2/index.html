@@ -1,0 +1,30 @@
+<!--Step-By-Step 1-1
+* Author: Drew Killion
+* Project Purpose: display a HTML form using javascript and not HTML directly
+* Input:  This program does not accept inputs
+* Desired Output:  Diplay form with image
+* Variables and Classes:  none
+* Formulas:  none
+* Description of the main algorithm: Document.write() is used to display the output
+* Janurary 10, 2018
+-->
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <body>
+        <script>
+           let form = "<form >\
+           <!-- image from pixabay https://pixabay.com/en/contact-us-blue-button-style-1194643/-->\
+           <img width='640' height='320' src='img\\contact-us.png' />\
+           Name: <br />\
+           <input type='text' name='name' /><br />\
+           Email: <br />\
+           <input type='text' name='email' /><br />\
+           Comments: <br />\
+           <textarea  type='text' name='comments'></textarea><br />\
+           <input type='submit' value='Submit' />\
+           </form>";
+           document.write(form);
+        </script>
+    </body>
+</head>
