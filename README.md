@@ -1,2 +1,2 @@
-# cis238
+# CIS 238
 JavaScript class
